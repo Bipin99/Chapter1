@@ -1,3 +1,102 @@
-# LearnReact
-Learn react with a small step by following each chapter.
-Chapter 1 tells how to use react with cdn files. What's the alternate option of dealing with DOM in react. 
+
+Q.What is Emmet?
+ans->It is One interesting plugin from that list is an amazing tool called Emmet, which helps you write HTML and CSS faster by using simple abbreviations that are then
+ converted into code blocks. However,there is one minor drawback; by default, Emmet is not enabled for React in VS Code.
+Building a web application’s UI in React would involve writing out the HTML in React using JSX and defining the styles using CSS.
+
+A larger codebase would require a repeated syntax, which could potentially reduce productivity if you repeatedly have to type out each part. With Emmet, you can solve this problem easily.
+
+By using short expressions and abbreviations, you can more quickly and easily type the HTML while also  producing a good codebase more efficiently. There is just one minor drawback; by default, Emmet isn’t configured to
+ recognize .jsx files in React for VS Code. However, there is an easy fix.
+
+Q. Difference between a Library and Framework?
+-> We can say that a library implements a particular function. Some examples of popular libraries are React, and JQuery. We can define
+ a framework as a collection of libraries implementing a particular methodology. Some of the more commonly known frameworks are Angular, Vue, Model View Controller, and Model View Presenter.
+  How Does a Framework Work?
+A framework enables a coding environment that contains low-level libraries to address conventional coding issues. 
+The objective of a framework is to deliver faster development of an application.
+ This includes everything we need to build large-scale applications, such as templates based on best practices. 
+Let’s consider the inner workings of a framework. If we’re using a graphical user interface (GUI) framework, it calls the code through event handlers.
+ If we’re using a web framework, it calls the code through a request-response model. 
+For a web application, JavaScript frameworks provide a skeleton with the tools for fast development.
+ Internally, such a framework contains a large collection of libraries that provides the developer with inbuilt functionalities, which helps to develop an application without extensive coding knowledge.
+
+
+How Does a Library Work?
+A library is a collection of reusable, compiled, and tested code that can facilitate the automation or augmentation of application functionalities.
+ It’s designed to support both the code developer and code compiler during the build process and the running of the application.
+ A library implements many functions, variables, and parameters.
+
+
+Q.What is CDN? Why do we use it?
+->Content delivery networks (CDN) are the transparent backbone of the Internet in charge of content delivery. Whether we know it or not, every one of us interacts with CDNs on a daily basis; when reading articles on news sites, shopping online, watching YouTube videos or perusing social media feeds.
+
+No matter what you do, or what type of content you consume, chances are that you’ll find CDNs behind every character of text, every image pixel and every movie frame that gets delivered to your PC and mobile browser.
+
+To understand why CDNs are so widely used, you first need to recognize the issue they’re designed to solve. Known as latency, it’s the annoying delay that occurs from the moment you request to load a web page to the moment its content actually appears onscreen.
+
+Imperva CDN Guide: What is a CDN
+That delay interval is affected by a number of factors, many being specific to a given web page. In all cases however, the delay duration is impacted by the physical distance between you and that website’s hosting server.
+
+A CDN’s mission is to virtually shorten that physical distance, the goal being to improve site rendering speed and performance.
+To minimize the distance between the visitors and your website’s server, a CDN stores a cached version of its content in multiple geographical locations (a.k.a., points of presence, or PoPs). Each PoP contains a number of caching servers responsible for content delivery to visitors within its proximity.
+
+In essence, CDN puts your content in many places at once, providing superior coverage to your users. For example, when someone in London accesses your US-hosted website, it is done through a local UK PoP. This is much quicker than having the visitor’s requests, and your responses, travel the full width of the Atlantic and back.
+
+This is how a CDN works in a nutshell. Of course, as we thought we needed an entire guide to explain the inner workings of content delivery networks, the rabbit hole goes deeper.
+
+Read on to learn more!
+
+Every Second Counts
+Studies show that a second-long delay causes a 7% drop in conversions, an 11% drop in page views and a 16% drop in customer satisfaction.
+
+Who uses a CDN?
+Pretty much everyone. Today, over half of all traffic is already being served by CDNs. Those numbers are rapidly trending upward with every passing year. The reality is that if any part of your business is online, there are few reasons not to use a CDN especially when so many offer their services free of charge.
+
+Yet even as a free service, CDNs aren’t for everyone. Specifically, if you are running a strictly localized website, with the vast majority of your users located in the same region as your hosting, having a CDN yields little benefit. In this scenario, using a CDN can actually worsen your website’s performance by introducing another unessential connection point between the visitor and an already nearby server.
+
+Still, most websites tend to operate on a larger scale, making CDN usage a popular choice in the following sectors:
+
+Advertising
+Media and entertainment
+Online gaming
+E-commerce
+Mobile
+Healthcare
+Higher educatio
+Government
+
+
+
+
+Q. Why is React known as React?
+-> The name "React" was chosen because the library was designed to allow developers to "react" to changes in state and data within an application, and to update the user interface in a declarative and efficient manner
+
+Q. What is crossorigin in script tag?
+->The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+
+Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+
+A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+CORS is used to manage cross-origin requests.
+
+CORS stands for Cross-Origin Resource Sharing, and is a mechanism that allows resources on a web page to be requested from another domain outside their own domain. It defines a way of how a browser and server can interact to determine whether it is safe to allow the cross-origin request. CORS allows servers to specify who can access the assets on the server, among many other things.
+
+Two values are:
+anonymous - A cross-origin request is performed. No credentials are sent
+use-credentials - A cross-origin request is performed. Credentials are sent (e.g. a cookie, a certificate, a HTTP Basic authentication)
+
+
+Q. What is diference between React and ReactDOM
+In order to work with React in the browsers, we need to include 2 libraries: React and ReactDOM. 
+React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+
+Q.What is difference between react.development.js and react.production.js files via CDN?
+->react.development.js are only meant for development, and are not suitable for production.
+Minified and optimized production versions of React are available at react.production.js.
+
+Q.What is async and defer? -
+->Any given resource on a page is first downloaded and then applied to or run on the page. While the loading behavior of async and defer are the same - loading in the background without render blocking - the difference lies in their behavior when executing.
+
+JavaScript files with the async attribute will run in no particular order as soon as they're loaded, whereas defer'd resources run in sequence (in the order they appear in the HTML) toward the end of the initial loading process, right before the DOMContentLoaded event.
