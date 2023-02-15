@@ -1,19 +1,31 @@
 If you are someone started learning react follow along with me with the instructions :
+
 ● Set up all the tools in the laptop
+
 ○ VS Code
+
 ○ Chrome
+
 ○ Extensions of Chrome
+
 ● Create a new Git repo
+
 ● Build your first Hello World program using,
+
 ○ Using just HTML
 ○ Using JS to manipulate the DOM
 ○ Using React
+
 ■ use CDN Links
+
 ■ Create an Element
+
 ■ Create nested React Elements
+
 ■ Use root.render
 
 Answers to some questions which will help to complete this chapter:
+
 Q.What is Emmet?
 ans->It is One interesting plugin from that list is an amazing tool called Emmet, which helps you write HTML and CSS faster by using simple abbreviations that are then
  converted into code blocks. However,there is one minor drawback; by default, Emmet is not enabled for React in VS Code.
